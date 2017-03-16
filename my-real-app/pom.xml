@@ -1,0 +1,16 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.mycompany</groupId>
+    <artifactId>my-real-app</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>my-real-app</name>
+    <modules>
+        <module>my-real-app-war</module>
+        <module>my-real-app-gar</module>
+        <module>my-real-app-ear</module>
+    </modules>
+    <properties>
+        <coherence.version>12.1.2-0-0</coherence.version>
+    </properties>
+</project>
