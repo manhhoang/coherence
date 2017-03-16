@@ -1,18 +1,18 @@
 package org.mycompany.servlets;
 
-import org.mycompany.Person;
 import org.mycompany.CacheWrapper;
+import org.mycompany.Person;
 
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
-import java.util.Iterator;
 
 @WebServlet(name = "MyServlet", urlPatterns = "MyServlet")
 public class MyServlet extends HttpServlet {

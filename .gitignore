@@ -1,0 +1,4 @@
+*.iml
+my-real-app/my-real-app-ear/target
+my-real-app/my-real-app-gar/target
+my-real-app/my-real-app-war/target
